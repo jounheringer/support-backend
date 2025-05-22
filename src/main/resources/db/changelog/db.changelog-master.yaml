@@ -1,0 +1,6 @@
+databaseChangeLog:
+  - preConditions:
+      - runningAs:
+          username: postgres
+  - include:
+      file: db/changelog/2025/05/22-01-changelog.xml
