@@ -4,3 +4,7 @@ databaseChangeLog:
           username: postgres
   - include:
       file: db/changelog/2025/05/22-01-changelog.xml
+  - include:
+      file: db/changelog/2025/05/25-01-changelog.xml
+  - include:
+      file: db/changelog/default/add-user.xml
