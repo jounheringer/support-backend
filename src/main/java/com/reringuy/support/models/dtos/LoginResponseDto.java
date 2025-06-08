@@ -1,4 +1,6 @@
 package com.reringuy.support.models.dtos;
 
-public record LoginResponseDto(String token) {
-}
+public record LoginResponseDto(
+        UserResponseDto user,
+        String token
+){}
